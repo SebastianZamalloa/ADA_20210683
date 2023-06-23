@@ -25,12 +25,11 @@ float mochila(int capacidadMochila, vector<Objeto<float>> elementos)
         {
             peso += elementos[j].peso;
             rpta += elementos[j].valor;
-
         }
         else
         {
+            rpta += elementos[j].valor*((capacidadMochila-peso)/elementos[j].peso);
             peso = capacidadMochila;
-            rpta += elementos[j].valor*(capacidadMochila-peso)/elementos[j].peso;
         }
         elementos.erase(elementos.begin()+j);
     }
@@ -40,13 +39,12 @@ float mochila(int capacidadMochila, vector<Objeto<float>> elementos)
 int main() {
 
     vector<Objeto<float>> elementos = {
-        {10, 10}, 
-        {1, 3},
-        {1, 3},
-        {1, 4},   
+        {25, 18}, 
+        {24, 15},
+        {15, 10}  
     };
 
-    int capacidadMochila = 10;
+    int capacidadMochila = 20;
 
     cout << "El valor máximo que se puede obtener en la mochila es: " << mochila(capacidadMochila, elementos) << endl;
 
