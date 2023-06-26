@@ -16,7 +16,7 @@ int main()
             cout<<i<<", "<<j<<endl; count++; // (n+1)(n+2)/2 =  (n^2+3n+2)/2    
         }count++;
     }count++;
-    // n+2 + (2n^2+8n+6)/2 = n+2 + n^2+4n+3 = n^2+5n+5
+    // n+2 + (2n^2+8n+6)/2 = n+2 + n^2+4n+3 = n^2+5n+5         O(n^2)
     cout<<"\nConteo: "<<count<<endl<<endl;
     //Verificado
 }
