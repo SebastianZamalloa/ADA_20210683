@@ -41,7 +41,6 @@ class Grafo
         {
             vector<int> solucion;
             solucion.push_back(s); 
-            int cost = 0;
             while (solucion.size() < nV) 
             {
                 int ultimoNodo = solucion.back();
@@ -60,7 +59,6 @@ class Grafo
                 }
                 solucion.push_back(nodoSeleccionado);
             }
-            cout<<"\nCoste total: "<<cost<<endl;
             return solucion;
         }
 };
