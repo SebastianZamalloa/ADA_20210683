@@ -12,7 +12,7 @@ USANDO:
 
 ![imagen](https://github.com/SebastianZamalloa/ADA_20210683/assets/104155286/57827da1-2db4-4c39-8e54-96c70ef80384)
 
-
+![imagen](https://github.com/SebastianZamalloa/ADA_20210683/assets/104155286/9f05d22d-7e98-4a73-ba30-d10f56739afe)
 
 3. Problema del viajero por aristas
 
